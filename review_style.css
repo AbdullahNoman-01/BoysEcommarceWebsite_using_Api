@@ -1,0 +1,58 @@
+#review_carousel{
+   width: 100%;
+   height: 200px;
+   background-image: url("photo/review.png");
+   background-position: center;
+   background-size: cover;
+   box-shadow: 4px 4px 8px rgb(178, 198, 22);
+   margin-bottom: 30px;
+}
+
+/* review */
+
+#review_container img{
+   width: 160px;
+}
+#review_container {
+   display: flex;
+   gap: 40px;
+   width: 100%;
+   /* background-color: rgb(142, 200, 200); */
+   padding: 40px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.review_details {
+   width: 80%;
+   background-color: white;
+   padding: 35px;
+   border-radius: 10px;
+   box-shadow: 4px 4px 8px gray;
+}
+
+#review_container h1{
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#review_container .comment{
+   width: 100%;
+   height: 90px;
+   background-color: rgb(117, 117, 95);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding:20px;
+}
+#review_container h2{
+   color: gray;
+   font-size: 15px;
+   display: flex;
+   padding-top: 30px;
+}
+#review_container .info{
+   display: flex;
+   text-align: center;
+   gap: 8px;
+
+}
